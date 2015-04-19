@@ -1,0 +1,28 @@
+{
+  "name": "node-curve25519",
+  "version": "1.0.0",
+  "description": "Node 0.12+ compatible elliptic curve crypto algorithm using Curve25519",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/victorgama/node-curve25519.git"
+  },
+  "keywords": [
+    "curve25519",
+    "elliptic",
+    "curve",
+    "crypto",
+    "algorithm"
+  ],
+  "author": "Victor Gama <hey@vito.io>",
+  "license": "MIT",
+  "gypfile": true,
+  "bugs": {
+    "url": "https://github.com/victorgama/node-curve25519/issues"
+  },
+  "homepage": "https://github.com/victorgama/node-curve25519"
+}
