@@ -6,7 +6,7 @@ var curve = require('./build/Release/curve.node').curve,
         return b;
     })();
 
-exports = {
+module.exports = {
 
     /**
      * Modifies a given buffer instance to be used as a secret key.
@@ -33,7 +33,7 @@ exports = {
      */
     derivePublicKey: function(secretKey) {
         var publicKey = new Buffer(32);
-        curve(publicKey, secret, baseBuffer)
+        curve(publicKey, secretKey, baseBuffer)
         return publicKey;
     },
 
